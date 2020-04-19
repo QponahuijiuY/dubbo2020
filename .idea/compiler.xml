@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="00-common" />
+        <module name="01-first-consumer" />
+        <module name="01-first-provider" />
+        <module name="02-consumer-zk" />
+        <module name="02-provider-zk" />
+        <module name="dubbo2020" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-first-provider (1)" target="1.5" />
+      <module name="dubbo2020" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
